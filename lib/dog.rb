@@ -1,14 +1,14 @@
 class Dog
-#  dog_array = []
+  @@all = []
 
 
   def initialize(name)
     @name = name
-#    dog_array << name
+    @@all << name
   end
 
   def self.all
-#    dog_array
+    @@all
   end
 
 end
