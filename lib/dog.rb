@@ -1,10 +1,9 @@
 class Dog
+  dog_array = []
 
-attr_reader :dog_array
 
   def initialize(name)
     @name = name
-    dog_array = []
     dog_array << name
   end
 
