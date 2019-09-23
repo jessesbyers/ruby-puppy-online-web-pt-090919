@@ -8,7 +8,7 @@ class Dog
   end
 
   def self.all
-    dog_array
+#    dog_array
   end
 
 end
