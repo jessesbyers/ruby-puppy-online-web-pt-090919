@@ -1,6 +1,6 @@
 class Dog
+  attr_reader :name
   @@all = []
-
 
   def initialize(name)
     @name = name
@@ -9,6 +9,12 @@ class Dog
 
   def self.all
     @@all
+  end
+
+  def self.clear_all
+  end
+
+  def self.print_all
   end
 
 
